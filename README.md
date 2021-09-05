@@ -9,8 +9,7 @@ It also has plugins for live previews of the PDF file generated from the LaTeX t
 
 ## Script for installing the neovim binary file from the nightly build
 
-I used the following script on Septebmer 2, 2021  to install neovim 0.6
-
+I used the following script on September 2, 2021 to install nightly-build neovim 0.6 binaries.
 
 ```bash
 #!/bin/zsh
