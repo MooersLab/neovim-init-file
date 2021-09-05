@@ -3,9 +3,15 @@
 This is Blaine's neovim init.vim file.
 It is current as of September 5, 2021.
 It is being used with neovim version 0.6.
-It calls some plugins that depend on Lua, so these plugins need to be commented out if using an older version of neovim.
-It has been customized to enable the editing of LaTeX files and code files from about a dozen programming languages.
+
+The Vim-Plug plugin manager is used.
+Update the plugins with the command `:PlugUpdate`.
+
+The init.vim calls some plugins that depend on Lua, so these plugins need to be commented out if using neovim < 0.5.
+The init.vim file has been customized to enable the editing of LaTeX files and code files from about a dozen programming languages.
 It also has plugins for live previews of the PDF file generated from the LaTeX tex file.
+The init.vim file also invokes LSP servers for autocompletion.
+
 
 ## Script for installing the neovim binary file from the nightly build
 
