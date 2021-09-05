@@ -12,6 +12,38 @@ It also has plugins for live previews of the PDF file generated from the LaTeX t
 I used the following script on Septebmer 2, 2021  to install neovim 0.6
 
 
+```bash
+#!/bin/zsh
 
+# Change the above to your shell.
+# This script enables the quick install of the nighlty release of neovim. 
+# source:  https://www.reddit.com/r/neovim/comments/j38ook/neovim_050_on_mac/
+# Note: you may need to make a ~/dev/nvim-osx64 directory first.
+
+echo "Download..."
+cd ~/Downloads
+rm -vrf nvim-macos.tar.gz
+curl -# -L -O https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
+tar zxpvf nvim-macos.tar.gz
+
+cd ~/dev/nvim-osx64
+
+echo "Installing..."
+rm -vrf ~/dev/nvim-osx64/bin
+rm -vrf ~/dev/nvim-osx64/share
+rm -vrf ~/dev/nvim-osx64/lib
+rm -vrf ~/dev/nvim-osx64/libs
+mv ~/Downloads/nvim-osx64/bin .
+mv ~/Downloads/nvim-osx64/share .
+mv ~/Downloads/nvim-osx64/lib .
+mv ~/Downloads/nvim-osx64/libs .
+
+echo "Removing downloaded dir..."
+rmdir ~/Downloads/nvim-osx64
+
+rm -vrf ~/Downloads/nvim-macos.tar.gz
+
+echo "The End!"
+```
 
 
