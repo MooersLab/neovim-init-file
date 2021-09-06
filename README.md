@@ -7,13 +7,13 @@ It is being used with neovim version 0.6.
 The Vim-Plug plugin manager is used.
 Update the plugins with the command `:PlugUpdate`.
 
-The init.vim calls some plugins that depend on Lua, so these plugins need to be commented out if using neovim < 0.5.
+The init.vim calls some plugins that depend on Lua, which became incorporated in neovim 0.5, so these plugins need to be commented out if using neovim < 0.5.
 The init.vim file has been customized to enable the editing of LaTeX files and code files from about a dozen programming languages.
 It also has plugins for live previews of the PDF file generated from the LaTeX tex file.
 The init.vim file also invokes LSP servers for autocompletion.
 
 
-## Script for installing the neovim binary file from the nightly build
+## Script for installing the neovim binary file from the nightly build on Mac OS
 
 I used the following script on September 2, 2021 to install nightly-build neovim 0.6 binary.
 
@@ -50,5 +50,20 @@ rm -vrf ~/Downloads/nvim-macos.tar.gz
 
 echo "The End!"
 ```
+
+## Links of interest
+
+* [Telescope fuzzy finder](https://github.com/nvim-telescope/telescope.nvim)
+* [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+* [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+* [tree-sitter](https://github.com/tree-sitter/tree-sitter)
+* [Neovim plugin to open multiple files in one buffer](https://pythonawesome.com/neovim-plugin-to-open-multiple-files-in-one-buffer/) 
+
+
+## Books on neovim
+
+* 	***Modern Vim: Craft Your Development Environment with Vim 8 and Neovim*** (2018) by Neil Drew
+
+
 
 
