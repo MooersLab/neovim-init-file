@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/static/v1?label=neovim-init-file&message=0.2&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 # neovim-init-file
 
 This is Blaine's neovim init.vim file.
@@ -15,7 +19,7 @@ The init.vim file also invokes LSP servers for autocompletion.
 
 ## Script for installing the neovim binary file from the nightly build on Mac OS
 
-I used the following script on September 2, 2021 to install nightly-build neovim 0.6 binary.
+I used the following script on September 2, 2021, to install the nightly-build neovim 0.6 binary.
 
 ```bash
 #!/bin/zsh
@@ -64,6 +68,18 @@ echo "The End!"
 
 * 	***Modern Vim: Craft Your Development Environment with Vim 8 and Neovim*** (2018) by Neil Drew
 
+## Update history
+
+|Version      | Changes                                                                                                                                                                         | Date                 |
+|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+| Version 0.2 |   Added badges, funding, and update table.                                                                                                                  | 2024 May 24         |
+
+## Sources of funding
+
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH: P20 GM103640 and P30 GM145423 (PI: A. West)
 
 
 
